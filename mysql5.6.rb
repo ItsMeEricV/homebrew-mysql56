@@ -9,8 +9,7 @@ class Mysql56 < Formula
   bottle do
     root_url "https://github.com/ejvaudio/homebrew-mysql56/releases/download/5.6.36_1"
     sha256 "ae3aa1f390d6c6d7a20726b90f9c99c25288735a5040d0599704005ec97afb8e" => :sierra
-    sha256 "6a780c7b0d016bbbf3b73d2861a7498e093c0dc339d1db492884a75e64c28f31" => :el_capitan
-    sha256 "9bfe50e8d182381909c48e5e414b402987b14a5ab12b13c9c235fc95cd08e393" => :yosemite
+    sha256 "6915f7e69642b5b55035ff030918854b5f7639b7ac7aae633f01859effe2e5b4" => :el_capitan
   end
 
   keg_only :versioned_formula
